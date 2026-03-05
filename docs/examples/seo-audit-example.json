@@ -1,0 +1,56 @@
+{
+  "project": "Acme Analytics",
+  "domain": "acmeanalytics.com",
+  "audit_date": "2026-03-05T09:00:00Z",
+  "health_score": 74.5,
+  "totals": {
+    "pages_crawled": 386,
+    "critical": 7,
+    "warnings": 23,
+    "opportunities": 41
+  },
+  "issues": [
+    {
+      "severity": "critical",
+      "category": "indexability",
+      "title": "Important pages blocked by robots.txt",
+      "description": "12 product pages are disallowed and cannot be indexed.",
+      "recommendation": "Allow crawl access for /products/* and resubmit sitemap.",
+      "impact_score": 9.4,
+      "evidence": {
+        "url": "https://acmeanalytics.com/products/enterprise-dashboard",
+        "details": "Disallow rule matched: /products/"
+      }
+    },
+    {
+      "severity": "warning",
+      "category": "metadata",
+      "title": "Duplicate meta descriptions",
+      "description": "64 pages share highly similar meta descriptions.",
+      "recommendation": "Generate unique metas by search intent and page template.",
+      "impact_score": 7.2,
+      "evidence": {
+        "url": "https://acmeanalytics.com/blog",
+        "details": "Duplicate pattern hash: md_83f9"
+      }
+    },
+    {
+      "severity": "opportunity",
+      "category": "internal-linking",
+      "title": "Low-authority pages missing contextual links",
+      "description": "31 pages have <=1 internal inbound link from relevant hubs.",
+      "recommendation": "Add 3-5 contextual links from pillar pages with intent-matched anchors.",
+      "impact_score": 6.8,
+      "evidence": {
+        "url": "https://acmeanalytics.com/guides/session-replay-best-practices",
+        "details": "Inlinks: 1, Suggested sources: /guides, /blog/ux-analytics"
+      }
+    }
+  ],
+  "next_30_day_plan": [
+    "Fix robots and indexability blockers for revenue pages",
+    "Deploy metadata optimizer on top 100 URLs",
+    "Publish 12 high-intent cluster articles around product analytics comparisons",
+    "Implement internal link map recommendations for top 50 target pages"
+  ]
+}

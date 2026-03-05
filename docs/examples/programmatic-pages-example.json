@@ -1,0 +1,58 @@
+{
+  "project": "Acme Analytics",
+  "generated_count": 3,
+  "pages": [
+    {
+      "slug": "/best-product-analytics-tools",
+      "page_type": "best-tools",
+      "primary_keyword": "best product analytics tools",
+      "seo_title": "Best Product Analytics Tools (2026 Comparison)",
+      "meta_description": "Compare the best product analytics tools by features, pricing, and use cases in this detailed 2026 guide.",
+      "content_outline": [
+        "H1: Best Product Analytics Tools",
+        "H2: How We Evaluated Each Tool",
+        "H2: Top 10 Product Analytics Platforms",
+        "H2: Pricing Comparison",
+        "H2: Which Tool is Best for Your Team?"
+      ],
+      "schema_markup": {
+        "@type": "ItemList",
+        "itemListOrder": "https://schema.org/ItemListOrderAscending"
+      }
+    },
+    {
+      "slug": "/product-analytics-in-austin",
+      "page_type": "city-landing",
+      "primary_keyword": "product analytics in austin",
+      "seo_title": "Product Analytics Services in Austin",
+      "meta_description": "Discover top product analytics services in Austin, with local use cases and implementation tips.",
+      "content_outline": [
+        "H1: Product Analytics in Austin",
+        "H2: Why Austin Teams Invest in Product Analytics",
+        "H2: Choosing the Right Analytics Stack",
+        "H2: Local Success Stories",
+        "H2: Frequently Asked Questions"
+      ],
+      "schema_markup": {
+        "@type": "FAQPage"
+      }
+    },
+    {
+      "slug": "/how-to-improve-product-retention-with-analytics",
+      "page_type": "how-to",
+      "primary_keyword": "how to improve product retention with analytics",
+      "seo_title": "How to Improve Product Retention with Analytics",
+      "meta_description": "Learn a practical framework to improve product retention using behavioral analytics and lifecycle insights.",
+      "content_outline": [
+        "H1: How to Improve Product Retention with Analytics",
+        "H2: Define Retention Metrics",
+        "H2: Identify Drop-off Segments",
+        "H2: Build Experiments and Measure Impact",
+        "H2: Create a Retention Dashboard"
+      ],
+      "schema_markup": {
+        "@type": "HowTo"
+      }
+    }
+  ]
+}
